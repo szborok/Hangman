@@ -12,12 +12,13 @@ public class Vocabulary {
     private InputStream sourceFile;
     
     public Vocabulary() {
-        this.sourceFileName = "words_alpha.txt";
+        this.sourceFileName = "words_english.txt";
         this.sourceFile = getSource();
         this.words = initializeWords();
     }
     
     private List<String> initializeWords() {
+        
         List<String> returnList = new ArrayList<>();
         Scanner scanner = new Scanner(this.sourceFile);
         

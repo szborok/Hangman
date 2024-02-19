@@ -21,7 +21,7 @@ public class Graphic {
             String j = (numberOfWrongGuesses >= 10) ? "\\" : " ";
             
             System.out.println(
-                    "            " + c + c + c + c + c + c + c + c + c + c + c + c + c + "              \n" +
+                            "            " + c + c + c + c + c + c + c + c + c + c + c + c + c + "      \n" +
                             "            " + b + "           " + d + "                                  \n" +
                             "            " + b + "         " + e + "                                    \n" +
                             "            " + b + "        " + g + g + g + f + h + h + h + "             \n" +
